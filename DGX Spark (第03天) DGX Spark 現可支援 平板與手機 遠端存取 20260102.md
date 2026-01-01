@@ -5,7 +5,7 @@
 ## 🟩 中文版
 > ## 適用情境 與 優點
 > **安卓/蘋果 平板與手機 Clients 開瀏覽器在 Open WebUI 介面上 → 透過自己建立的遠端連線 → 用 DGX Spark Server 的算力跑 Ollama**
-> - DGX Spark 現可支援 **平板與手機** 遠端存取 (不只有 Mac/PC Client)
+> - DGX Spark 現可支援 **平板與手機** 遠端存取 (不只有 Mac/PC)
 >   - 隨時隨地跑 Ollama，大幅提高生產力
 >   - 用 `WireGuard` 與 `Termius` APPs
 > - **基於前幾篇文章 [第01天A: 外網遠端操控 指南](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-from-Internet-Guide-20251220A/blob/main/DGX%20Spark%20(%E7%AC%AC01%E5%A4%A9A)%20%E5%A4%96%E7%B6%B2%E9%81%A0%E7%AB%AF%E6%93%8D%E6%8E%A7%20%E6%8C%87%E5%8D%97%2020251220A.md) 與 [第01天B: 同子網內網操控 指南](https://github.com/Sniper711/DGX-Spark-Day01B-Local-Access-from-Same-Subnet-Guide-20251220B/blob/main/DGX%20Spark%20(%E7%AC%AC01%E5%A4%A9B)%EF%BC%9A%E5%90%8C%E5%AD%90%E7%B6%B2%E5%85%A7%E7%B6%B2%E6%93%8D%E6%8E%A7%20%E6%8C%87%E5%8D%97%2020251220B.md) 的兩種連線方式，以及 [第02天: 用 Open WebUI 介面 遠端操作 DGX Spark 上的 Ollama](https://github.com/Sniper711/DGX-Spark-Day02-Open-WebUI-with-Ollama-on-Remote-Spark-20251226/blob/main/DGX%20Spark%20(%E7%AC%AC02%E5%A4%A9)%20%E7%94%A8%20Open%20WebUI%20%E4%BB%8B%E9%9D%A2%20%E9%81%A0%E7%AB%AF%E6%93%8D%E4%BD%9C%20DGX%20Spark%20%E4%B8%8A%E7%9A%84%20Ollama%2020251226.md)**
