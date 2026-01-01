@@ -43,11 +43,11 @@
 ### Step 2. 設定 `WireGuard` APP 
 (分兩種情況，Step 2A 與 Step 2B)
 #### Step 2A. 若你的 Mac/PC Client 的 WireGuard Client 版本，能以 QR code 匯出設定，最簡單：
-- Step 2A-1. 打開平板 `WireGuard` APP
+- Step 2A-1. 打開平板與手機 `WireGuard` APP
 - Step 2A-2. 按左下角 `+` 號，選  `掃描 QR code`
 - Step 2A-3. 掃描 Mac/PC Client 的 WireGuard Client 顯示出的 QR code，完成設定。
 #### Step-2B 若你的 Mac/PC Client 的 WireGuard Client 版本，不能以 QR code 匯出設定，那就一步步輸入：
-- Step 2B-1. 打開平板/手機 `WireGuard` APP
+- Step 2B-1. 打開平板與手機 `WireGuard` APP
 - Step 2B-2. 按左下角 `+` 號，選  `從空白開始建立`
 - Step 2B-3. 剛開始看見 介面端設定，填寫如下：
   - 名稱：        **填Server VPN名稱，我的範例是 `DGXSparkVPN`**
@@ -68,7 +68,7 @@
 ### Step 3. 測試安卓/蘋果 平板與手機 的 WireGuard Client 連線：
 在 DGX Spark 的 WireGuard Server 已開機情形下
 - Step 3-1. 在平板與手機 WireGuard APP找到剛設定好的連線 (我的範例是**`DGXSparkVPN`**)，按下去。
-- Step 3-2. 若VPN建立成功。平板與手機 WireGuard APP 內會開始顯示已連線時長的讀秒，且平板右上角會出現一隻鑰匙圖案。
+- Step 3-2. 若VPN建立成功。平板與手機 WireGuard APP 內會開始顯示已連線時長的讀秒，且平板與手機右上角會出現一隻鑰匙圖案。
 
 --- 
 
