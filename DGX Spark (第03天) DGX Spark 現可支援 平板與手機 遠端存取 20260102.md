@@ -12,7 +12,7 @@
 >   - **100% 連線成功率與穩定度，自己掌握 Server/Client 連線的設定細節**
 >   - 不使用 NVIDIA SYNC app 的連線方式
 > - **重開機之後**
->   - 只要在 安卓/蘋果 平板與手機 上，依序啟動 `WireGuard` 與 `Termius` APPs，再 瀏覽 `Ollama 服務網址`，超級簡單。 
+>   - 只要在任何 平板與手機 Client 上，依序啟動 `WireGuard` 與 `Termius` APPs，再 瀏覽 `Ollama 服務網址`，超級簡單。 
 
 ---
 
@@ -126,6 +126,6 @@
 ---
 
 # **恭喜你！從此你能在平板與手機隨時隨地，用 DGX Spark 的 GPU 算力，開網頁跑 Ollama 了！**
-<sub><sup>＊重開機之後，只要 安卓/蘋果 平板與手機 Clients 上，依序啟動 `WireGuard` 與 `Termius` 服務，再 瀏覽 `Ollama 服務網址`，超級簡單。</sup></sub>
+<sub><sup>＊重開機之後，只要在任何 平板與手機 Clients 上，依序啟動 `WireGuard` 與 `Termius` APPs，再 瀏覽 `Ollama 服務網址`，超級簡單。</sup></sub>
 
 ---
