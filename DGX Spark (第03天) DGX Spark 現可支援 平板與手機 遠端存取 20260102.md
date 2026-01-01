@@ -23,7 +23,7 @@
   - [Step 2. 設定 WireGuard APP](#step-2-設定-wireguard-app)
     - [Step 2A. 若你的 Mac/PC Client 的 WireGuard Client 版本，能以 QR code 匯出設定，最簡單](#step-2a-若你的-macpc-client-的-wireguard-client-版本能以-qr-code-匯出設定最簡單)
     - [Step 2B. 若你的 Mac/PC Client 的 WireGuard Client 版本，不能以 QR code 匯出設定，那就一步步輸入](#step-2b-若你的-macpc-client-的-wireguard-client-版本不能以-qr-code-匯出設定那就一步步輸入)
-  - [Step 3. 測試安卓/蘋果平板的 WireGuard Client 連線](#step-3-測試安卓蘋果平板的-wireguard-client-連線)
+  - [Step 3. 測試安卓/蘋果 平板與手機 的 WireGuard Client 連線](#step-3-測試安卓蘋果-平板與手機-的-wireguard-client-連線)
 
 - [在平板與手機 安裝並設定 Termius APP：](#在平板與手機-安裝並設定-termius-app)
   - [Step 1. 從 Store 下載安裝 Termius APP](#step-1-從-store-下載安裝-termius-app)
