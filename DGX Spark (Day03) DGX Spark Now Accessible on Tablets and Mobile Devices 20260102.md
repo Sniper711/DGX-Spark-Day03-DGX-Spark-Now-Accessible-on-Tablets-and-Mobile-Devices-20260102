@@ -5,7 +5,7 @@
 ## 🟩 English
 > ## Scenarios & Advantages
 > **Android/iOS Tablets/Phones Client browser uses the Open WebUI interface → through the self-established remote connections → to run Ollama on DGX Spark Server**
-> - DGX Spark Now Accessible on any **Tablets and Mobile Devices** (Beyond the Mac/PC)
+> - DGX Spark Now Accessible on **Tablets and Mobile Devices** (Beyond the Mac/PC)
 >   - Run Ollama anytime, anywhere — significantly boost your productivity.
 >   - Use `WireGuard` and `Termius` APPs
 > - **Based on the interconnection methods of DGX Spark: [Day01A: Remote Access from Internet Guide](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-from-Internet-Guide-20251220A/blob/main/DGX%20Spark%20(Day01A)%20Remote%20Access%20from%20Internet%20Guide%2020251220A.md) and [Day01B: Local Access from Same Subnet Guide](https://github.com/Sniper711/DGX-Spark-Day01B-Local-Access-from-Same-Subnet-Guide-20251220B/blob/main/DGX%20Spark%20(Day01B)%EF%BC%9ALocal%20Access%20from%20Same%20Subnet%20Guide%2020251220B.md), and the article [Day02: Open WebUI with Ollama on Remote Spark](https://github.com/Sniper711/DGX-Spark-Day02-Open-WebUI-with-Ollama-on-Remote-Spark-20251226/blob/main/DGX%20Spark%20(Day02)%20Open%20WebUI%20with%20Ollama%20on%20Remote%20Spark%2020251226.md)**. 
