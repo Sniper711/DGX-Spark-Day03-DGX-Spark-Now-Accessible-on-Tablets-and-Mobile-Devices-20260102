@@ -12,7 +12,7 @@
 >   - Guaranteed stability through the self-estabilished remote connections
 >   - No reliance on NVIDIA SYNC
 > - After rebooting
->   - Simply have the Android/iOS Tablets/Phones Clients run `WireGuard` and `Termius`, then browse the `Ollama service URL` - it's super easy.
+>   - Simply have any Tablets/Phones Client run `WireGuard` and `Termius`, then browse the `Ollama service URL` - it's super easy.
 
 ---
 
@@ -129,7 +129,7 @@ If the SSH connection is successful, the word `Active` will appear in small text
 ---
 
 # Congratulations - Now you can run Ollama via your tablet's browser, anytime and anywhere — powered by DGX Spark's GPU!
-<sub><sup>* After rebooting. Simply have the Android/iOS Tablets/Phones Client run `WireGuard` and `Termius`, then browse the `Ollama service URL` - it's super easy.</sup></sub>
+<sub><sup>* After rebooting. Simply have any Tablets/Phones Client run `WireGuard` and `Termius`, then browse the `Ollama service URL` - it's super easy.</sup></sub>
 
 
 
