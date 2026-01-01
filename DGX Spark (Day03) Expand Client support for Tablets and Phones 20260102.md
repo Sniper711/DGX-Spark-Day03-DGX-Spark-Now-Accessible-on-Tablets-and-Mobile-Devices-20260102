@@ -1,43 +1,43 @@
 <sub><sup>This is an extension of my previous articles on the two Server/Client connection methods for DGX Spark: [Day01A: Remote Access from Internet Guide](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-from-Internet-Guide-20251220A/blob/main/DGX%20Spark%20(Day01A)%20Remote%20Access%20from%20Internet%20Guide%2020251220A.md) and [Day01B: Local Access from Same Subnet Guide](https://github.com/Sniper711/DGX-Spark-Day01B-Local-Access-from-Same-Subnet-Guide-20251220B/blob/main/DGX%20Spark%20(Day01B)%EF%BC%9ALocal%20Access%20from%20Same%20Subnet%20Guide%2020251220B.md), and the article [Day02: Open WebUI with Ollama on Remote Spark](https://github.com/Sniper711/DGX-Spark-Day02-Open-WebUI-with-Ollama-on-Remote-Spark-20251226/blob/main/DGX%20Spark%20(Day02)%20Open%20WebUI%20with%20Ollama%20on%20Remote%20Spark%2020251226.md) Here, I'll expand Client support from Mac/PC to Android/iOS Tablets/Phones, to significantly boost your productivity. I hope this gives you more options for reference.</sup></sub>
 ![Tablets and phones](https://github.com/user-attachments/assets/70810f41-f032-4e81-b67d-72965c07eafa)
 
-# DGX Spark (Day03) DGX Spark Now Accessible on Tablets and Mobile Devices 20260102
+# DGX Spark (Day03) DGX Spark Now Accessible on any Tablets and Mobile Devices 20260102
 ## 🟩 English
 > ## Scenarios & Advantages
-> **Android/iOS Tablet Client browser uses the Open WebUI interface → through the self-established remote connections → to run Ollama on DGX Spark Server**
-> - Expand Support for Android/iOS Tablet Clients (Beyond Just Mac/PC Clients)
+> **Android/iOS Tablets/Phones Client browser uses the Open WebUI interface → through the self-established remote connections → to run Ollama on DGX Spark Server**
+> - DGX Spark Now Accessible on any **Tablets and Mobile Devices** (Beyond the Mac/PC)
 >   - Run Ollama anytime, anywhere — significantly boost your productivity.
->   - Install and configure `WireGuard` and `Termius` APPs on your tablet.
+>   - Use `WireGuard` and `Termius` APPs
 > - **Based on the interconnection methods of DGX Spark: [Day01A: Remote Access from Internet Guide](https://github.com/Sniper711/DGX-Spark-Day01A-Remote-Access-from-Internet-Guide-20251220A/blob/main/DGX%20Spark%20(Day01A)%20Remote%20Access%20from%20Internet%20Guide%2020251220A.md) and [Day01B: Local Access from Same Subnet Guide](https://github.com/Sniper711/DGX-Spark-Day01B-Local-Access-from-Same-Subnet-Guide-20251220B/blob/main/DGX%20Spark%20(Day01B)%EF%BC%9ALocal%20Access%20from%20Same%20Subnet%20Guide%2020251220B.md), and the article [Day02: Open WebUI with Ollama on Remote Spark](https://github.com/Sniper711/DGX-Spark-Day02-Open-WebUI-with-Ollama-on-Remote-Spark-20251226/blob/main/DGX%20Spark%20(Day02)%20Open%20WebUI%20with%20Ollama%20on%20Remote%20Spark%2020251226.md)**. 
 >   - Guaranteed stability through the self-estabilished remote connections
 >   - No reliance on NVIDIA SYNC
 > - After rebooting
->   - Simply have the Android/iOS Tablet Clients run `WireGuard` and `Termius`, then browse the `Ollama service URL` - it's super easy.
+>   - Simply have the Android/iOS Tablets/Phones Clients run `WireGuard` and `Termius`, then browse the `Ollama service URL` - it's super easy.
 
 ---
 
 ## Table of Contents
 
-- [On Your Tablet: Installing and Setting Up WireGuard APP](#on-your-tablet-installing-and-setting-up-wireguard-app)
+- [On Your Tablets/Phones: Installing and Setting Up WireGuard APP](#on-your-tabletsphones-installing-and-setting-up-wireguard-app)
   - [Step 1. Download and Install WireGuard APP from the Store](#step-1-download-and-install-wireguard-app-from-the-store)
   - [Step 2. Configure WireGuard App](#step-2-configure-wireguard-app)
     - [Step 2A. If Your Mac/PC WireGuard client version supports exporting settings as a QR Code (the easiest method)](#step-2a-if-your-macpc-wireguard-client-version-supports-exporting-settings-as-a-qr-code-the-easiest-method)
     - [Step 2B. If your Mac/PC WireGuard client version does not support exporting settings as a QR code, enter the details manually](#step-2b-if-your-macpc-wireGuard-client-version-does-not-support-exporting-settings-as-a-qr-code-enter-the-details-manually)
   - [Step 3 Test the WireGuard Client Connection on Your Android/iOS Tablet](#step-3-test-the-wireguard-client-connection-on-your-androidios-tablet)
 
-- [On Your Tablet: Installing and Setting Up the Termius App](#on-your-tablet-installing-and-setting-up-the-termius-app)
+- [On Your Tablets/Phones: Installing and Setting Up the Termius App](#on-your-tabletsphones-installing-and-setting-up-the-termius-app)
   - [Step 1. Download and Install the Termius App from the Store](#step-1-download-and-install-the-termius-app-from-the-store)
   - [Step 2. Configure the Host Feature in the Termius App](#step-2-configure-the-host-feature-in-the-termius-app)
   - [Step 3. Configure the Forwarding Feature in the Termius App](#step-3-configure-the-forwarding-feature-in-the-termius-app)
 
-- [On Your Tablet: Launch WireGuard and Termius in Sequence, then browse Ollama Service URL](#on-your-tablet-launch-wireguard-and-termius-in-sequence-then-browse-the-ollama-service-url)
+- [On Your Tablets/Phones: Launch WireGuard and Termius in Sequence, then browse Ollama Service URL](#on-your-tabletsphones-launch-wireguard-and-termius-in-sequence-then-browse-the-ollama-service-url)
   - [Step 1. Launch WireGuard to Establish the VPN Tunnel](#step-1-launch-wireguard-to-establish-the-vpn-tunnel)
   - [Step 2. Launch Termius to Establish the SSH Host Connection and Activate the Ollama-Specific Port Forwarding Rule](#step-2-launch-termius-to-establish-the-ssh-host-connection-and-activate-the-ollama-specific-port-forwarding-rule)
   - [Step 3. Browse the Ollama Service URL http://localhost:12000](#step-3-browse-the-ollama-service-url-httplocalhost12000)
 
 ---
 
-## On Your Tablet: Installing and Setting Up `WireGuard` APP
+## On Your Tablets/Phones: Installing and Setting Up `WireGuard` APP
 
 ### Step 1. Download and Install `WireGuard` APP from the store
 ### Step 2. Configure `WireGuard` App
@@ -47,7 +47,7 @@
 - Step 2A-2 Tap the `+` icon in the bottom-left corner, then select `Scan QR Code`
 - Step 2A-3. Scan the QR code displayed on your Mac/PC WireGuard client to complete the setup.
 #### Step 2B. If your Mac/PC WireGuard client version does not support exporting settings as a QR code, enter the details manually:
-- Step 2B-1. Open the `WireGuard` app on your tablet.
+- Step 2B-1. Open the `WireGuard` app on your tablets/phones.
 - Step 2B-2. Tap the `+` icon in the bottom-left corner, then select `Create from Scratch`
 - Step 2B-3. In the Interface section, fill in the following:
   - Name:        **Enter the Server VPN name. My example is `DGXSparkVPN`**
@@ -65,14 +65,14 @@
     - Endpoint:             **Enter <DGX_SPARK_PUBLIC_IP>:51820 from the (Day01A) article and replace <DGX_SPARK_PUBLIC_IP> with your server's public IP**
     - Allowed IPs:          **Enter 0.0.0.0/0 — routes all traffic through the VPN tunnel**
     - Finally, tap the `save icon (a disk logo)` in the top-right corner to save and complete the setup.
-### Step 3. Test the WireGuard Client Connection on Your Android/iOS Tablet
+### Step 3. Test the WireGuard Client Connection on Your Android/iOS Tablets/Phones
 (With the WireGuard Server on DGX Spark already running)
-- Step 3-1. In the tablet's WireGuard app, find the connection you just created (named with the Server VPN name you just entered, `DGXSparkVPN` for example) and tap it to connect.
-- Step 3-2. If the VPN connects successfully, the WireGuard app will start showing a connection timer, and a key icon will appear in the top-right corner of your tablet's status bar.   
+- Step 3-1. In the tablet's/phone's WireGuard app, find the connection you just created (named with the Server VPN name you just entered, `DGXSparkVPN` for example) and tap it to connect.
+- Step 3-2. If the VPN connects successfully, the WireGuard app will start showing a connection timer, and a key icon will appear in the top-right corner of your tablet's/phone's status bar.   
 
 ---
 
-## On Your Tablet: Installing and Setting Up the `Termius` App
+## On Your Tablets/Phones: Installing and Setting Up the `Termius` App
 
 ### Step 1. Download and Install the `Termius` App from the Store
 ### Step 2. Configure the `Host` Feature in the `Termius` App
@@ -115,7 +115,7 @@
 
 ---
 
-## On Your Tablet: Launch `WireGuard` and `Termius` in Sequence, then browse the `Ollama Service URL`
+## On Your Tablets/Phones: Launch `WireGuard` and `Termius` in Sequence, then browse the `Ollama Service URL`
 
 ### Step 1. Launch `WireGuard` to Establish the VPN Tunnel
 Open the `WireGuard` app and tap the Server VPN name button you created earlier (my example: `DGXSparkVPN`) to connect successfully. Note: If you tap it a second time, a timer showing the connection duration in seconds will appear on the right side of the screen.
