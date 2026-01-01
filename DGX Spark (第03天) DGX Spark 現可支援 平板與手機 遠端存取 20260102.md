@@ -125,7 +125,7 @@
 
 ---
 
-# **恭喜你！從此你能在平板與手機隨時隨地，用 DGX Spark 的 GPU 算力，開網頁跑 Ollama 了！**
+# **恭喜你！從此你能在 平板與手機 隨時隨地，用 DGX Spark 的 GPU 算力，開網頁跑 Ollama 了！**
 <sub><sup>＊重開機之後，只要在 平板與手機 Clients 上，依序啟動 `WireGuard` 與 `Termius` APPs，再 瀏覽 `Ollama 服務網址`，超級簡單。</sup></sub>
 
 ---
