@@ -43,7 +43,7 @@
 ### Step 2. Configure `WireGuard` App
 (There are two scenarios: Step 2A and Step 2B)
 #### Step 2A. If your Mac/PC WireGuard client version supports exporting settings as a QR code (the easiest method):
-- Step 2A-1. Open the `WireGuard` app on your Tablet.
+- Step 2A-1. Open the `WireGuard` app on your tablets/phones.
 - Step 2A-2 Tap the `+` icon in the bottom-left corner, then select `Scan QR Code`
 - Step 2A-3. Scan the QR code displayed on your Mac/PC WireGuard client to complete the setup.
 #### Step 2B. If your Mac/PC WireGuard client version does not support exporting settings as a QR code, enter the details manually:
