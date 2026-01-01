@@ -23,7 +23,7 @@
   - [Step 2. Configure WireGuard App](#step-2-configure-wireguard-app)
     - [Step 2A. If Your Mac/PC WireGuard client version supports exporting settings as a QR Code (the easiest method)](#step-2a-if-your-macpc-wireguard-client-version-supports-exporting-settings-as-a-qr-code-the-easiest-method)
     - [Step 2B. If your Mac/PC WireGuard client version does not support exporting settings as a QR code, enter the details manually](#step-2b-if-your-macpc-wireGuard-client-version-does-not-support-exporting-settings-as-a-qr-code-enter-the-details-manually)
-  - [Step 3 Test the WireGuard Client Connection on Your Android/iOS Tablet](#step-3-test-the-wireguard-client-connection-on-your-androidios-tablet)
+  - [Step 3 Test the WireGuard Client Connection on Your Android/iOS Tablets/Phones](#step-3-test-the-wireguard-client-connection-on-your-androidios-tabletsphones)
 
 - [On Your Tablets/Phones: Installing and Setting Up the Termius App](#on-your-tabletsphones-installing-and-setting-up-the-termius-app)
   - [Step 1. Download and Install the Termius App from the Store](#step-1-download-and-install-the-termius-app-from-the-store)
