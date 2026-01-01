@@ -131,5 +131,4 @@ If the SSH connection is successful, the word `Active` will appear in small text
 # Congratulations - Now you can run Ollama via your tablet's/phone's browser, anytime and anywhere — powered by DGX Spark's GPU!
 <sub><sup>* After rebooting. Simply have your Tablets/Phones Client run `WireGuard` and `Termius`, then browse the `Ollama service URL` - it's super easy.</sup></sub>
 
-
-
+---
