@@ -4,7 +4,7 @@
 # DGX Spark (第03天) DGX Spark 現可支援任何 平板與手機 遠端存取 20260102
 ## 🟩 中文版
 > ## 適用情境 與 優點
-> **安卓/蘋果 平板與手機 Client 開瀏覽器在 Open WebUI 介面上 → 透過自己建立的遠端連線 → 用 DGX Spark Server 的算力跑 Ollama**
+> **安卓/蘋果 平板與手機 Clients 開瀏覽器在 Open WebUI 介面上 → 透過自己建立的遠端連線 → 用 DGX Spark Server 的算力跑 Ollama**
 > - DGX Spark 現可支援任何 **平板與手機** 遠端存取 (不只有 Mac/PC Client)
 >   - 隨時隨地跑 Ollama，大幅提高生產力
 >   - 用 `WireGuard` 與 `Termius` APPs
@@ -12,7 +12,7 @@
 >   - **100% 連線成功率與穩定度，自己掌握 Server/Client 連線的設定細節**
 >   - 不使用 NVIDIA SYNC app 的連線方式
 > - **重開機之後**
->   - 只要在任何 平板與手機 Client 上，依序啟動 `WireGuard` 與 `Termius` APPs，再 瀏覽 `Ollama 服務網址`，超級簡單。 
+>   - 只要在任何 平板與手機 Clients 上，依序啟動 `WireGuard` 與 `Termius` APPs，再 瀏覽 `Ollama 服務網址`，超級簡單。 
 
 ---
 
