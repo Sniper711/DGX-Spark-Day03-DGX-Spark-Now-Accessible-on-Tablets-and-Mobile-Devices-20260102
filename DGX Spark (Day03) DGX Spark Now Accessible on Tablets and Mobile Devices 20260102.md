@@ -3,7 +3,7 @@
 
 # DGX Spark (Day03) DGX Spark Now Accessible on Tablets and Mobile Devices 20260102
 ## 🟩 English
-> ## Scenario & Advantages
+> ## Scenarios & Advantages
 > **Android/iOS Tablets/Phones Client browser uses the Open WebUI interface → through the self-established remote connections → to run Ollama on DGX Spark Server**
 > - DGX Spark Now Accessible on **Tablets and Mobile Devices** (Beyond just Mac/PC)
 >   - Run Ollama anytime, anywhere — significantly boost your productivity.
