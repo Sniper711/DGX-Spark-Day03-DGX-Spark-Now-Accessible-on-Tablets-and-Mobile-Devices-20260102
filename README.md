@@ -6,7 +6,7 @@
 # DGX Spark (第03天) DGX Spark 現可支援 平板與手機 遠端存取 20260102 🟩 [中文版](https://github.com/Sniper711/DGX-Spark-Day03-DGX-Spark-Now-Accessible-on-Tablets-and-Mobile-Devices-20260102/blob/main/DGX%20Spark%20(%E7%AC%AC03%E5%A4%A9)%20DGX%20Spark%20%E7%8F%BE%E5%8F%AF%E6%94%AF%E6%8F%B4%20%E5%B9%B3%E6%9D%BF%E8%88%87%E6%89%8B%E6%A9%9F%20%E9%81%A0%E7%AB%AF%E5%AD%98%E5%8F%96%2020260102.md)
 
 
-> ## Scenario & Advantages
+> ## Scenarios & Advantages
 > **Android/iOS Tablets/Phones Client browser uses the Open WebUI interface → through the self-established remote connections → to run Ollama on DGX Spark Server**
 > - DGX Spark Now Accessible on **Tablets and Mobile Devices** (Beyond just Mac/PC) 
 >   - Run Ollama anytime, anywhere — significantly boost your productivity.
