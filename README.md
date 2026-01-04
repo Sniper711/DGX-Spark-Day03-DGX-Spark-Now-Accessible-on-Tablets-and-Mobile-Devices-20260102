@@ -41,3 +41,8 @@
 ---
 Davis Lin (Sniper711) .
 Unauthorized article copying, distribution, or modification is prohibited.
+
+
+<img width="617" height="508" alt="Day03" src="https://github.com/user-attachments/assets/2460f387-4d57-4719-ad1c-91d2d9157f84" />
+
+
