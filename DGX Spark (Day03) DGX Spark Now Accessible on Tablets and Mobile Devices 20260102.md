@@ -14,7 +14,12 @@
 > - After rebooting
 >   - Simply have your Tablets/Phones Client run `WireGuard` and `Termius`, then browse the `Ollama service URL` - it's super easy.
 
+
+<img width="617" height="508" alt="Day03" src="https://github.com/user-attachments/assets/e3630d0d-870f-4336-9028-4038d2a855d2" />
+
+
 ---
+
 
 ## Table of Contents
 
