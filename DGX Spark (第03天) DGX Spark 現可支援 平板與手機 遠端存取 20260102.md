@@ -14,7 +14,12 @@
 > - **重開機之後**
 >   - 只要在 平板與手機 Clients 上，依序啟動 `WireGuard` 與 `Termius` APPs，再 瀏覽 `Ollama 服務網址`，超級簡單。 
 
+
+<img width="617" height="508" alt="第03天" src="https://github.com/user-attachments/assets/964bfbf5-d204-4079-8614-73e00441e0a2" />
+
+
 ---
+
 
 ## 目錄 Table of Contents
 
